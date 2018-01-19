@@ -91,6 +91,7 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Images\epic-spies-logo.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
