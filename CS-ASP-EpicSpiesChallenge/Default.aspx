@@ -33,13 +33,12 @@
 			Start Date of New Assignment:
 		</p>
 			<asp:Calendar ID="startDtNewCalendar" runat="server"></asp:Calendar>
-		</p>
 		<p>
 			Projected End Date of New Assignment:
 		<asp:Calendar ID="endDtNewCalendar" runat="server"></asp:Calendar>
 		</p>
 			&nbsp;</p>
-		<asp:Button ID="AssignSpyButton" runat="server" Text="Button" />
+		<asp:Button ID="AssignSpyButton" runat="server" Text="Assign Spy" OnClick="AssignSpyButton_Click" />
 		<br />
 		<br />
 		<asp:Label ID="resultLabel" runat="server" Text="resultLabel"></asp:Label>
