@@ -20,11 +20,11 @@
 			<strong>Spy New Assignment Form</strong></p>
 		<p class="auto-style1">
 			Spy Code Name:
-			<asp:Label ID="spyCodeNameLabel" runat="server"></asp:Label>
+			<asp:TextBox ID="spyCodeNameTextBox" runat="server"></asp:TextBox>
 		</p>
 		<p class="auto-style1">
 			New Assignment Name:
-			<asp:Label ID="newAssignmentNameLabel" runat="server"></asp:Label>
+			<asp:TextBox ID="newAssignmentNameTextBox" runat="server"></asp:TextBox>
 		</p>
 		<p class="auto-style1">
 			End of Previous Assignment<asp:Calendar ID="endDtPreviousCalendar" runat="server" VisibleDate="2018-01-19"></asp:Calendar>
@@ -37,7 +37,6 @@
 			Projected End Date of New Assignment:
 		<asp:Calendar ID="endDtNewCalendar" runat="server"></asp:Calendar>
 		</p>
-			&nbsp;</p>
 		<asp:Button ID="AssignSpyButton" runat="server" Text="Assign Spy" OnClick="AssignSpyButton_Click" />
 		<br />
 		<br />

@@ -31,22 +31,22 @@ namespace CS_ASP_EpicSpiesChallenge {
         protected global::System.Web.UI.WebControls.Image EpicSpiesLogoImage;
         
         /// <summary>
-        /// spyCodeNameLabel control.
+        /// spyCodeNameTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label spyCodeNameLabel;
+        protected global::System.Web.UI.WebControls.TextBox spyCodeNameTextBox;
         
         /// <summary>
-        /// newAssignmentNameLabel control.
+        /// newAssignmentNameTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label newAssignmentNameLabel;
+        protected global::System.Web.UI.WebControls.TextBox newAssignmentNameTextBox;
         
         /// <summary>
         /// endDtPreviousCalendar control.
