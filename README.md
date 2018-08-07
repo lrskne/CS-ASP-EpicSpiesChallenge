@@ -1,2 +1,2 @@
 # CS-ASP-EpicSpiesChallenge
-Progression through LearnVisualStudio.net tutorial
+LearnVisualStudio.net tutorial. Solution complete - Lesson 19  through LearnVisualStudio.net tutorial
