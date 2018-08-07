@@ -27,7 +27,7 @@
 			<asp:TextBox ID="newAssignmentNameTextBox" runat="server"></asp:TextBox>
 		</p>
 		<p class="auto-style1">
-			End of Previous Assignment<asp:Calendar ID="endDtPreviousCalendar" runat="server" VisibleDate="2018-01-19"></asp:Calendar>
+			End of Previous Assignment<asp:Calendar ID="endDtPreviousCalendar" runat="server" VisibleDate="2018-08-06" SelectedDate="08/06/2018 16:29:32"></asp:Calendar>
 		</p>
 		<p>
 			Start Date of New Assignment:
@@ -40,7 +40,7 @@
 		<asp:Button ID="AssignSpyButton" runat="server" Text="Assign Spy" OnClick="AssignSpyButton_Click" />
 		<br />
 		<br />
-		<asp:Label ID="resultLabel" runat="server" Text="resultLabel"></asp:Label>
+		<asp:Label ID="resultLabel" runat="server"></asp:Label>
     </form>
 </body>
 </html>

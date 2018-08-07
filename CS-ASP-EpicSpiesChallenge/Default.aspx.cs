@@ -9,9 +9,13 @@ namespace CS_ASP_EpicSpiesChallenge
 {
 	public partial class Default : System.Web.UI.Page
 	{
-		//dummy change 8/3/18 b
+	
 		protected void Page_Load(object sender, EventArgs e)
 		{
+			/* Since this is a tutorial exercise, put in explanatin of what a postback is. A postback
+			occurs when the user clicks on one of the controls on the page, and the control initiates a postback.
+			so !Page.IsPostBack is when the form first loads. So here you want to initialize per the business rules
+			*/
 			if ( !Page.IsPostBack)
 			{
 				// Notice you must add .Date, otherwise you get a date with the time, and the date will not get selected
